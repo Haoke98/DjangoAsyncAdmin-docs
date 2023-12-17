@@ -2,6 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base:'/DjangoAsyncAdmin-docs/',
     title: "DjangoAsyncAdmin",
     description: "Django 新的动态Admin , 具有异步请求, 异步列表页刷新和加载, UI更加美观. 基于vue2+ElementUI2.X来对传统的DjangoAdmin进行重写. 非常易于使用, 便于快速搭建高性能后台管理. ",
     lastUpdated: true,

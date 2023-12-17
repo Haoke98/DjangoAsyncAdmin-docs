@@ -23,4 +23,17 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-<img src="https://pypi-camo.global.ssl.fastly.net/ecfc98443cb0f8b613316d9004fbcf6d09fb1481/68747470733a2f2f68616f6b6539382e6769746875622e696f2f446a616e676f4173796e6341646d696e2f7374617469632f6469676974616c5f776f726c645f62616e6e65722e706e67">
+<div style="width: 80%;margin: auto;margin-top: 2%;">
+<h1>Demo1: 数字化世界</h1>
+<img  src="/static/digital_world_banner.png">
+</div>
+
+<div style="width: 80%;margin: auto;margin-top: 2%;">
+<h1>Demo2: AI实验室🧪</h1>
+<img  src="/static/silk_road_ai_banner.png">
+</div>
+
+<div style="width: 80%;margin: auto;margin-top: 2%;">
+<h1>Demo3: 过程可视化数据处理引擎</h1>
+<img  src="/static/截屏2023-12-06 17.02.10.png">
+</div>

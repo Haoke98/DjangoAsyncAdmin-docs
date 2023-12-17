@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base:'/DjangoAsyncAdmin-docs/',
+    base: '/DjangoAsyncAdmin-docs/',
     title: "DjangoAsyncAdmin",
     description: "Django 新的动态Admin , 具有异步请求, 异步列表页刷新和加载, UI更加美观. 基于vue2+ElementUI2.X来对传统的DjangoAdmin进行重写. 非常易于使用, 便于快速搭建高性能后台管理. ",
     lastUpdated: true,
@@ -19,6 +19,14 @@ export default defineConfig({
                     {text: 'Foo', link: '/foo'},
                     {text: 'Item B', link: '/item-2'},
                     {text: 'Item C', link: '/item-3'}
+                ]
+            },
+            {
+                text: 'Demo',
+                items: [
+                    {text: '数字化世界', link: 'https://github.com/Haoke98/AllKeeper'},
+                    {text: 'AI实验室🧪', link: '#'},
+                    {text: '过程可视化数据处理引擎', link: '#'}
                 ]
             },
             {text: 'Examples', link: '/markdown-examples'},
@@ -57,10 +65,10 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/vuejs/vitepress'},
-            {icon: 'instagram', link: 'https://github.com/vuejs/vitepress'},
-            {icon: 'discord', link: 'https://github.com/vuejs/vitepress'},
-            {icon: 'x', link: 'https://github.com/vuejs/vitepress'}
+            {icon: 'github', link: 'https://github.com/Haoke98/DjangoAsyncAdmin'},
+            // {icon: 'instagram', link: 'https://github.com/vuejs/vitepress'},
+            // {icon: 'discord', link: 'https://github.com/vuejs/vitepress'},
+            // {icon: 'x', link: 'https://github.com/vuejs/vitepress'}
         ],
         editLink: {
             pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
